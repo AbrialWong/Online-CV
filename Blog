@@ -1,0 +1,12 @@
+Journey of a Chef to a self taught developer
+
+On Macbook
+>> Currently there's some issues with mongoose v5.11.18
+
+Hence I downgrade it into mongoose v5.11.15 by using the following commands:
+
+1. Uninstall mongoose
+``` npm uninstall mongoose ```
+
+2. Install mongoose v5.11.15
+``` npm i mongoose@5.11.15 ```
