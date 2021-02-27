@@ -1,6 +1,6 @@
 # Post 1: 27 Feb 2021 #
 
-On Macbook
+** Macbook **
 >> Currently there's some issues with mongoose v5.11.18
 
 Hence I downgrade it into mongoose v5.11.15 by using the following commands:
@@ -10,3 +10,8 @@ Hence I downgrade it into mongoose v5.11.15 by using the following commands:
 
 2. Install mongoose v5.11.15
 ``` npm i mongoose@5.11.15 ```
+
+# Post 2: Basic Bash Commands #
+
+<!-- Macbook -->
+rm -r <directoryName> :- Remove folder from directory
