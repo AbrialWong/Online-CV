@@ -21,3 +21,10 @@ rm -r <directoryName> :- Remove folder from directory
 <!-- Macbook -->
 npm init :- Initialized npm
 npm i <packageName> :- Install the necessary files for the packages through npm
+
+# Post 4: Create the environment variables to keep your information safe #
+
+<!-- Macbook -->
+1. npm i dotenv :- npm install dotenv
+2. define "require('dotenv').config();" in app.js file
+2. touch .env :- Create a new file named .env (hidden file) 
