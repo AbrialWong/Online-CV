@@ -1,0 +1,192 @@
+/* define variables for the primary colors */
+/*define variables for fonts*/
+/*----------------Navbar------------------------ */
+.navbar {
+  background-color: #EBBBB0;
+  /*----Logo----*/
+  /*----Links----*/
+}
+.navbar .navbar-brand {
+  color: white;
+  padding-left: 20px;
+  font-family: "Nerko One", cursive;
+  font-size: 30px;
+}
+.navbar .nav-link {
+  color: white !important;
+  font-family: "Montserrat", sans-serif;
+  padding-right: 30px !important;
+}
+
+/*---------------------Content------------------*/
+/*Contact*/
+.contact {
+  background-color: #F6E8E5;
+  font-family: "Montserrat", sans-serif;
+}
+.contact .container {
+  width: 500px;
+  /*Profile Picture*/
+  /*Name*/
+  /*Likes*/
+}
+.contact .container .header {
+  padding-top: 30px;
+  text-align: center;
+  display: block;
+  font-size: 25px;
+}
+.contact .container img {
+  width: 60%;
+  height: auto;
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+.contact .container .name {
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  margin-bottom: block;
+}
+.contact .container .likes {
+  text-align: center;
+  display: block;
+  font-size: 15px;
+}
+.contact .container .contact {
+  text-align: center;
+  display: block;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+/*Portfolio*/
+.portfolio {
+  background-color: #F6E8E5;
+  font-family: "Montserrat", sans-serif;
+}
+.portfolio .header {
+  padding-top: 30px;
+  text-align: center;
+  display: block;
+  font-size: 25px;
+}
+
+/* Education */
+.education {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 60px;
+  /* Main Header */
+}
+.education .header {
+  padding-top: 40px;
+  text-align: center;
+  display: block;
+  font-size: 25px;
+}
+.education .edu-content-1 {
+  background-color: #F6E8E5;
+}
+.education .edu-content-1 p {
+  font-family: "Nerko One", cursive;
+}
+.education .edu-content-1 li {
+  font-size: 13px;
+}
+.education .edu-content-2 {
+  background-color: white;
+}
+.education .edu-content-2 p {
+  font-family: "Nerko One", cursive;
+}
+.education .edu-content-2 .inner-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.education .edu-content-2 .inner-grid .inner-box .innerheader {
+  font-family: "Nerko One", cursive;
+  font-size: 18px;
+  margin-top: 0px;
+  text-align: center;
+}
+.education .edu-content-2 .inner-grid .inner-box .text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
+
+/* Work */
+.work {
+  background-color: #F6E8E5;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 60px;
+}
+.work .header {
+  padding-top: 40px;
+  text-align: center;
+  display: block;
+  font-size: 25px;
+}
+.work .inner-grid {
+  display: grid;
+  grid-template-columns: 260px 260px 260px 260px;
+  grid-gap: 20px;
+}
+.work .inner-grid .inner-box {
+  background-color: white;
+}
+.work .inner-grid .inner-box .innerheader {
+  font-family: "Nerko One", cursive;
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: center;
+}
+.work .inner-grid .inner-box .text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
+.work .inner-grid .inner-box ul {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+/*about*/
+.about {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.about .header {
+  padding-top: 40px;
+  text-align: center;
+  display: block;
+  font-size: 25px;
+}
+
+/*-------------------Footer--------------------- */
+.footer {
+  background-color: #A8877F;
+}
+.footer p {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 25px;
+  padding-top: 10px;
+  margin-right: 10px;
+}
+
+/*---------------------------Copyright---------------------*/
+.copyright {
+  text-align: center;
+  display: block;
+  height: 40px;
+}
+.copyright p {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}/*# sourceMappingURL=styles.css.map */

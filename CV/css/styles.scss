@@ -1,0 +1,233 @@
+/* define variables for the primary colors */
+$peach: #EBBBB0; // peach
+$light_beige: #F6E8E5; // light beige
+$brown: #A8877F; // brown
+
+/*define variables for fonts*/
+$montserrat: 'Montserrat', sans-serif;
+$nerko: 'Nerko One', cursive;
+
+
+/*----------------Navbar------------------------ */
+.navbar{
+background-color:$peach; 
+
+/*----Logo----*/
+.navbar-brand{
+color: white;
+padding-left: 20px;
+font-family: $nerko;
+font-size: 30px;
+}
+/*----Links----*/
+.nav-link{
+    color: white !important;
+    font-family: $montserrat;
+    padding-right: 30px !important;
+    }
+    
+}
+
+/*---------------------Content------------------*/
+/*Contact*/
+.contact{
+    background-color: $light_beige;
+    font-family:$montserrat;
+    
+    .container{
+        width:500px;
+
+        .header{
+            padding-top:30px;
+            text-align:center;
+            display: block;
+            font-size: 25px;
+        }
+
+        /*Profile Picture*/
+        img{
+            width: 60%;
+            height: auto;
+            margin-left: 100px;
+            margin-bottom: 10px;   
+        }
+
+        /*Name*/
+        .name{
+        text-align:center;
+        display: block;
+        font-size: 20px;
+        margin-bottom:block;
+        }
+        
+        /*Likes*/
+        .likes{            
+            text-align:center;
+            display: block;
+            font-size: 15px;
+
+        }
+        .contact{
+            text-align:center;
+            display:block;
+            color:black;
+            padding-top:10px;
+            padding-bottom: 20px;
+        }
+    }
+}
+
+/*Portfolio*/
+.portfolio{
+    background-color:$light_beige;
+    font-family:$montserrat;
+    .header{
+        padding-top:30px;
+        text-align:center;
+        display: block;
+        font-size: 25px;
+    }
+}
+
+/* Education */
+.education{
+    background-color: white;
+    font-family:$montserrat;
+    padding-bottom: 60px;
+
+    /* Main Header */
+    .header{
+        padding-top:40px;
+        text-align:center;
+        display: block;
+        font-size: 25px;
+    }
+
+   .edu-content-1{
+       background-color:$light_beige;
+       
+       p{
+        font-family: $nerko;
+        
+        }
+        li{
+            font-size: 13px;
+        }
+    }
+
+    .edu-content-2{
+        background-color:white;
+        p{
+         font-family: $nerko;
+         }
+         .inner-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+            
+            .inner-box{
+                
+                .innerheader{
+                    font-family: $nerko;
+                    font-size: 18px;
+                   margin-top:0px;
+                   text-align:center;
+                }
+                .text{
+                    font-family:$montserrat;
+                    font-size: 13px;
+                    text-align:center;
+                }
+            
+            }
+         }
+     }
+
+
+}
+/* Work */
+.work{
+    background-color:$light_beige;
+    font-family:$montserrat;
+    padding-bottom: 60px;
+
+    .header{
+        padding-top:40px;
+        text-align:center;
+        display: block;
+        font-size: 25px;
+        
+    }
+    .inner-grid{
+        display: grid;
+        grid-template-columns: 260px 260px 260px 260px;
+        grid-gap: 20px;
+
+        .inner-box{
+            background-color: white;
+                
+            .innerheader{
+                font-family: $nerko;
+                font-size: 18px;
+               margin-top:10px;
+               text-align:center;
+            }
+            .text{
+                font-family:$montserrat;
+                font-size: 13px;
+                text-align:center;
+            }
+            ul{
+                font-family:$montserrat;
+                font-size: 13px;
+                margin-left:10px;
+                margin-right: 20px;
+               
+            }
+
+        
+        }
+
+    }
+}
+
+/*about*/
+.about{
+    background-color: white;
+    font-family:$montserrat;
+    .header{
+        padding-top:40px;
+        text-align:center;
+        display: block;
+        font-size: 25px;
+    }
+}
+
+/*-------------------Footer--------------------- */
+.footer { 
+    background-color:$brown;
+    
+    p{
+    color : white;
+    font-family:$montserrat;
+    margin-left: 25px;
+    padding-top: 10px;
+    margin-right:10px;
+    }
+}
+/*---------------------------Copyright---------------------*/
+.copyright {   
+    text-align: center;
+    display: block;
+    height:40px;
+    
+    p{
+    color: white;
+    font-family:$montserrat;
+    }
+}
+
+
+
+
+
