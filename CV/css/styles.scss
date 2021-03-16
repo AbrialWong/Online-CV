@@ -25,12 +25,21 @@ font-size: 30px;
     font-family: $montserrat;
     padding-right: 30px !important;
     }
-    
+
+.dropdown-menu{
+ background-color: $light_beige;
+ padding-left: 20px;
+ border:$peach solid 0.2px;
+
+ a{
+    color:black;
+ }
+}
 }
 
 /*---------------------Content------------------*/
 /*Contact*/
-.contact{
+#contact{
     background-color: $light_beige;
     font-family:$montserrat;
     
@@ -73,24 +82,81 @@ font-size: 30px;
             color:black;
             padding-top:10px;
             padding-bottom: 20px;
+            a{
+                color:black;
+            }
+            a:hover{
+                color:$peach;
+            }
+            .modal-content{
+                background-color:$peach;
+            .modal-title{
+                color:white;
+                font-family: $nerko;
+                font-size:35px;
+                text-align:left;
+                margin-left:15px;
+                margin-top:15px;
+            }
+            .modal-body{
+                text-align:left;
+                color:white;
+            }
+            .modal-footer{
+                button{
+                background-color: $light_beige;
+                color:black;
+            }
+            }
+            }
         }
     }
 }
 
 /*Portfolio*/
-.portfolio{
+#portfolio{
     background-color:$light_beige;
     font-family:$montserrat;
+    padding-bottom: 60px;
     .header{
         padding-top:30px;
         text-align:center;
         display: block;
         font-size: 25px;
     }
+    .port-content{
+        .header{
+            font-family: $nerko;
+            font-size: 30px;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 4px;
+            .text{
+                font-family:$montserrat;
+            } 
+            button{
+                border: none;
+                background-color: $light_beige
+            }
+            .modal-body{
+                h4{
+                    font-family: $nerko;
+                }
+                p{
+                    font-size:13px;
+                }
+            }
+            
+          }
+            
+}
+
 }
 
 /* Education */
-.education{
+#education{
     background-color: white;
     font-family:$montserrat;
     padding-bottom: 60px;
@@ -146,7 +212,7 @@ font-size: 30px;
 
 }
 /* Work */
-.work{
+#work{
     background-color:$light_beige;
     font-family:$montserrat;
     padding-bottom: 60px;
@@ -192,9 +258,10 @@ font-size: 30px;
 }
 
 /*about*/
-.about{
+#about{
     background-color: white;
     font-family:$montserrat;
+    padding-bottom:60px;
     .header{
         padding-top:40px;
         text-align:center;

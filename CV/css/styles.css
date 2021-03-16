@@ -17,139 +17,195 @@
   font-family: "Montserrat", sans-serif;
   padding-right: 30px !important;
 }
+.navbar .dropdown-menu {
+  background-color: #F6E8E5;
+  padding-left: 20px;
+  border: #EBBBB0 solid 0.2px;
+}
+.navbar .dropdown-menu a {
+  color: black;
+}
 
 /*---------------------Content------------------*/
 /*Contact*/
-.contact {
+#contact {
   background-color: #F6E8E5;
   font-family: "Montserrat", sans-serif;
 }
-.contact .container {
+#contact .container {
   width: 500px;
   /*Profile Picture*/
   /*Name*/
   /*Likes*/
 }
-.contact .container .header {
+#contact .container .header {
   padding-top: 30px;
   text-align: center;
   display: block;
   font-size: 25px;
 }
-.contact .container img {
+#contact .container img {
   width: 60%;
   height: auto;
   margin-left: 100px;
   margin-bottom: 10px;
 }
-.contact .container .name {
+#contact .container .name {
   text-align: center;
   display: block;
   font-size: 20px;
   margin-bottom: block;
 }
-.contact .container .likes {
+#contact .container .likes {
   text-align: center;
   display: block;
   font-size: 15px;
 }
-.contact .container .contact {
+#contact .container .contact {
   text-align: center;
   display: block;
   color: black;
   padding-top: 10px;
   padding-bottom: 20px;
 }
+#contact .container .contact a {
+  color: black;
+}
+#contact .container .contact a:hover {
+  color: #EBBBB0;
+}
+#contact .container .contact .modal-content {
+  background-color: #EBBBB0;
+}
+#contact .container .contact .modal-content .modal-title {
+  color: white;
+  font-family: "Nerko One", cursive;
+  font-size: 35px;
+  text-align: left;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+#contact .container .contact .modal-content .modal-body {
+  text-align: left;
+  color: white;
+}
+#contact .container .contact .modal-content .modal-footer button {
+  background-color: #F6E8E5;
+  color: black;
+}
 
 /*Portfolio*/
-.portfolio {
+#portfolio {
   background-color: #F6E8E5;
   font-family: "Montserrat", sans-serif;
+  padding-bottom: 60px;
 }
-.portfolio .header {
+#portfolio .header {
   padding-top: 30px;
   text-align: center;
   display: block;
   font-size: 25px;
 }
+#portfolio .port-content .header {
+  font-family: "Nerko One", cursive;
+  font-size: 30px;
+}
+#portfolio .port-content .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+#portfolio .port-content .row .text {
+  font-family: "Montserrat", sans-serif;
+}
+#portfolio .port-content .row button {
+  border: none;
+  background-color: #F6E8E5;
+}
+#portfolio .port-content .row .modal-body h4 {
+  font-family: "Nerko One", cursive;
+}
+#portfolio .port-content .row .modal-body p {
+  font-size: 13px;
+}
 
 /* Education */
-.education {
+#education {
   background-color: white;
   font-family: "Montserrat", sans-serif;
   padding-bottom: 60px;
   /* Main Header */
 }
-.education .header {
+#education .header {
   padding-top: 40px;
   text-align: center;
   display: block;
   font-size: 25px;
 }
-.education .edu-content-1 {
+#education .edu-content-1 {
   background-color: #F6E8E5;
 }
-.education .edu-content-1 p {
+#education .edu-content-1 p {
   font-family: "Nerko One", cursive;
 }
-.education .edu-content-1 li {
+#education .edu-content-1 li {
   font-size: 13px;
 }
-.education .edu-content-2 {
+#education .edu-content-2 {
   background-color: white;
 }
-.education .edu-content-2 p {
+#education .edu-content-2 p {
   font-family: "Nerko One", cursive;
 }
-.education .edu-content-2 .inner-grid {
+#education .edu-content-2 .inner-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
 }
-.education .edu-content-2 .inner-grid .inner-box .innerheader {
+#education .edu-content-2 .inner-grid .inner-box .innerheader {
   font-family: "Nerko One", cursive;
   font-size: 18px;
   margin-top: 0px;
   text-align: center;
 }
-.education .edu-content-2 .inner-grid .inner-box .text {
+#education .edu-content-2 .inner-grid .inner-box .text {
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
   text-align: center;
 }
 
 /* Work */
-.work {
+#work {
   background-color: #F6E8E5;
   font-family: "Montserrat", sans-serif;
   padding-bottom: 60px;
 }
-.work .header {
+#work .header {
   padding-top: 40px;
   text-align: center;
   display: block;
   font-size: 25px;
 }
-.work .inner-grid {
+#work .inner-grid {
   display: grid;
   grid-template-columns: 260px 260px 260px 260px;
   grid-gap: 20px;
 }
-.work .inner-grid .inner-box {
+#work .inner-grid .inner-box {
   background-color: white;
 }
-.work .inner-grid .inner-box .innerheader {
+#work .inner-grid .inner-box .innerheader {
   font-family: "Nerko One", cursive;
   font-size: 18px;
   margin-top: 10px;
   text-align: center;
 }
-.work .inner-grid .inner-box .text {
+#work .inner-grid .inner-box .text {
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
   text-align: center;
 }
-.work .inner-grid .inner-box ul {
+#work .inner-grid .inner-box ul {
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
   margin-left: 10px;
@@ -157,11 +213,12 @@
 }
 
 /*about*/
-.about {
+#about {
   background-color: white;
   font-family: "Montserrat", sans-serif;
+  padding-bottom: 60px;
 }
-.about .header {
+#about .header {
   padding-top: 40px;
   text-align: center;
   display: block;
