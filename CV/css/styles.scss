@@ -7,20 +7,32 @@ $brown: #A8877F; // brown
 $montserrat: 'Montserrat', sans-serif;
 $nerko: 'Nerko One', cursive;
 
-
 /*----------------Navbar------------------------ */
 .navbar{
 background-color:$peach; 
 
 /*----Logo----*/
-.navbar-brand{
+.navbar-brand {
 color: white;
 padding-left: 20px;
 font-family: $nerko;
 font-size: 30px;
 }
+/*---Toggler--*/
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: white;
+    .line{
+        width: 100%;
+        float: left;
+        height: 2px;
+        background-color: $peach;
+        margin-bottom: 5px;
+    }
+}
 /*----Links----*/
-.nav-link{
+.nav-link {
     color: white !important;
     font-family: $montserrat;
     padding-right: 30px !important;
@@ -42,6 +54,7 @@ font-size: 30px;
 #contact{
     background-color: $light_beige;
     font-family:$montserrat;
+    padding-bottom:60px;
     
     .container{
         width:500px;
@@ -89,9 +102,9 @@ font-size: 30px;
                 color:$peach;
             }
             .modal-content{
-                background-color:$peach;
+                background-color:white;
             .modal-title{
-                color:white;
+                color:black;
                 font-family: $nerko;
                 font-size:35px;
                 text-align:left;
@@ -100,7 +113,8 @@ font-size: 30px;
             }
             .modal-body{
                 text-align:left;
-                color:white;
+                color:black;
+                margin-left:15px;
             }
             .modal-footer{
                 button{
@@ -274,12 +288,15 @@ font-size: 30px;
 .footer { 
     background-color:$brown;
     
-    p{
-    color : white;
+    
+    p{    
     font-family:$montserrat;
     margin-left: 25px;
     padding-top: 10px;
     margin-right:10px;
+    }
+    a, a:hover{
+        color:white;
     }
 }
 /*---------------------------Copyright---------------------*/
@@ -288,7 +305,7 @@ font-size: 30px;
     display: block;
     height:40px;
     
-    p{
+    p,a,a:hover{
     color: white;
     font-family:$montserrat;
     }

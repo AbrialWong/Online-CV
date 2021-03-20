@@ -18,14 +18,16 @@
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 
-<body id="page-top">
+<body>
 
   <!----------------------- Navigation------------------->
   <nav class="navbar navbar-expand-lg">
     <a class="navbar-brand" href="#">Abrial Wong</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
       aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="line"></span> 
+      <span class="line"></span> 
+      <span class="line" style="margin-bottom: 0;"></span>
     </button>
 
     <div class="collapse navbar-collapse justify-content-end " id="navbarTogglerDemo02">
@@ -95,8 +97,8 @@
                         <b>March 2021</b><br><br>
                         Created a CV that is available online using <b>HTML</b>, <b>CSS</b>, <b>Bootstrap</b> and
                         <b>SCSS</b><br><br>
-                        Website here: <a href="https://google.com">URL here</a><br>
-                        Github here: <a href="https://github.com">Github</a>
+                        Website here: <a href="https://thirsty-mayer-a42bdf.netlify.app/">Website</a><br>
+                        Github here: <a href="https://github.com/AbrialWong/Online-CV/tree/Deployment/CV">Github</a>
                       </p>
                     </div>
                     <div class="modal-footer">
@@ -1064,41 +1066,34 @@
       </span>
       <span class="contact">
         <a href="https://github.com/abrialwong"><span class="bi bi-github"></span></a>
-        <a href="#" data-toggle="modal" data-target="#c1"><span class="bi bi-envelope-fill"></span></a>
-        <a href="+65 8299 7408"><span class="bi bi-telephone-fill"></span></a>
+        <a href="mailto:abrial-wong@live.com.sg"><span class="bi bi-envelope-fill"></span></a>
+        <a href="#" data-toggle="modal" data-target="#c1"><span class="bi bi-telephone-fill"></span></a>     
+    
+         <!-- ---------------Image 1 (C1-1)------------
+         <button type="button" class="btn btn-info btn-lg" ><img
+          src="./img/Programming/online-cv.png" class="img-fluid mb-4" alt=""></button> -->
 
-        <!-- Modal (C1-1) -->
-        <div id="c1" class="modal fade" role="dialog">
-          <div class="modal-dialog">
+      <!-- Modal (C1-1) -->
+      <div id="c1" class="modal fade" role="dialog">
+        <div class="modal-dialog">
 
-            <form action="signup.html" method="post" id="signup"></form>
-            <!-- Modal content-->
-            <div class="modal-content">  
-                <p class="modal-title"> Contact</p>
-              <div class="modal-body">
-                  <div class="form-group">
-                    <label for="exampleFormControlInput1">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                  </div>
-                  <div class="form-group">
-                    <label for="formGroupExampleInput">Name</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                  </div>
-                </form>
-                
-                 
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default">Submit</button>
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <p class="modal-title"> Contact</p>
+            </div>
+            <div class="modal-body">
+              +65 82997408 
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
+      </div>
+      <!-----------------Image 1 (C1-1)-------------->
+      </div>
+    </div>        
         <!-----------------Image 1 (C1-1)-------------->
 
       </span>
@@ -1106,7 +1101,13 @@
   </div>
   <!-----------------------Footer------------------------>
   <div class=" footer navbar navbar-expand-lg">
-    <p> Portfolio | Education | Work Experience | About | Contact </p>
+    <p>
+      <a href="#portfolio">Portfolio |</a>
+      <a href="#education">Education |</a>
+      <a href="#work">Work Experience |</a>
+      <a href="#about">About |</a> 
+      <a href="#contact">Contact</a>
+    </p>
   </div>
 
   <!----------------------Copyright---------------------->
